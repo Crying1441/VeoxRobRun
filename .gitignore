@@ -362,3 +362,8 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /_upload
+
+# Self-contained release build — tracked so a second PC can clone & run directly
+!Build/Release/
+!Build/Release/VeoxDMA/
+!Build/Release/VeoxDMA/**
